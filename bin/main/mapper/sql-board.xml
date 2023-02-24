@@ -17,7 +17,7 @@
 		]]>
 	</select>
 	
-	<insert id="insertBoard" parameterType="BoardDto" useGeneratedKeys="true" keyProperty="boardIdx">
+	<insert id="insertBoard" parameterType="boardDto" useGeneratedKeys="true" keyProperty="boardIdx">
 		<![CDATA[
 			INSERT INTO t_board
 			(
